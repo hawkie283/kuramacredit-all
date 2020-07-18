@@ -1,0 +1,157 @@
+[
+    {
+        "name":"Iute Credit",
+        "logo": "img/iute-credit-logo.png",
+        "phone":"tel:+373 22 801 500",
+        "email":"info@iutecredit.md",
+        "map": "Str.Vasile Lupu 21/15",
+        "description": "10 000 lei, cu 0% 1 lună Împrumut în 8 minute!",
+        "link": "apply/1",
+        "rate": 0,
+        "amount_min": 3000,
+        "amount_max": 20000,
+        "age_min": 22,
+        "period_min": 9,
+        "period_max": 35,
+        "decision": 0,
+        "approval": 0,
+        "student": true
+
+
+
+    
+
+
+    },
+
+    {
+        "name":"Sebo Credit",
+        "logo": "img/sebo-logo.png",
+        "phone":"tel:+373 22 801 500",
+        "email":"info@iutecredit.md",
+        "map": "Str.Vasile Lupu 21/15",
+        "description": "10 000 lei, cu 0% 1 lună Împrumut în 8 minute!",
+        "link": "apply/2",
+        "rate": 2,
+        "amount_min": 3000,
+        "amount_max": 20000,
+        "age_min": 24,
+        "period_min": 10,
+        "period_max": 40,
+        "decision": 0,
+        "approval": 0,
+        "student": false
+        
+
+
+
+    },
+
+    
+    {
+        "name":"Forza Credit",
+        "logo": "img/forza-logo.png",
+        "phone":"tel:+373 22 801 500",
+        "email":"info@iutecredit.md",
+        "map": "Str.Vasile Lupu 21/15",
+        "description": "10 000 lei, cu 0% 1 lună Împrumut în 8 minute!",
+        "link": "apply/3",
+        "rate": 5,
+        "amount_min": 3000,
+        "amount_max": 20000,
+        "age_min": 20,
+        "period_min": 7,
+        "period_max": 30,
+        "decision": 0,
+        "approval": 0,
+        "student": true
+
+    },
+
+
+
+       
+    {
+        "name":"Iute Credit",
+        "logo": "img/iute-credit-logo.png",
+        "phone":"tel:+373 22 801 500",
+        "email":"info@iutecredit.md",
+        "map": "Str.Vasile Lupu 21/15",
+        "description": "10 000 lei, cu 0% 1 lună Împrumut în 8 minute!",
+        "link": "apply/1",
+        "rate": 8,
+        "amount_min": 3000,
+        "amount_max": 20000,
+        "age_min": 20,
+        "period_min": 7,
+        "period_max": 30,
+        "decision": 0,
+        "approval": 0
+
+    },
+
+       
+    {
+        "name":"Sebo Credit",
+        "logo": "img/sebo-logo.png",
+        "phone":"tel:+373 22 801 500",
+        "email":"info@iutecredit.md",
+        "map": "Str.Vasile Lupu 21/15",
+        "description": "10 000 lei, cu 0% 1 lună Împrumut în 8 minute!",
+        "link": "apply/2",
+        "rate": 0,
+        "amount_min": 7000,
+        "amount_max": 19000,
+        "age_min": 20,
+        "period_min": 7,
+        "period_max": 30,
+        "decision": 0,
+        "approval": 0
+
+    },
+
+       
+    {
+        "name":"Iute Credit",
+        "logo": "img/iute-credit-logo.png",
+        "phone":"tel:+373 22 801 500",
+        "email":"info@iutecredit.md",
+        "map": "Str.Vasile Lupu 21/15",
+        "description": "10 000 lei, cu 0% 1 lună Împrumut în 8 minute!",
+        "link": "apply/3",
+        "rate": 0,
+        "amount_min": 5000,
+        "amount_max": 15000,
+        "age_min": 20,
+        "period_min": 7,
+        "period_max": 30,
+        "decision": 0,
+        "approval": 0
+
+    },
+
+       
+    {
+        "name":"Forza Credit",
+        "logo": "img/forza-logo.png",
+        "phone":"tel:+373 22 801 500",
+        "email":"info@iutecredit.md",
+        "map": "Str.Vasile Lupu 21/15",
+        "description": "10 000 lei, cu 0% 1 lună Împrumut în 8 minute!",
+        "link": "apply/1",
+        "rate": 0,
+        "amount_min": 6000,
+        "amount_max": 18000,
+        "age_min": 20,
+        "period_min": 7,
+        "period_max": 30,
+        "decision": 0,
+        "approval": 0
+
+    }
+
+       
+
+   
+
+]

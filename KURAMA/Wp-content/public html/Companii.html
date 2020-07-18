@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/css/companii.css">
+    <link rel="stylesheet" href="css/fonts">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/companii.css">
+    <title>All credit - Companii</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 logo-header">
+                        <a href="#!" class="logo">
+                            <img src="img/All-credit-logo.png" alt="AllCredit">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="search-box">
+                            <form class="search__box-form" method="get">
+                                <input type="text" placeholder="Введите ключевое слово" class="search__form-info">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="offset-md-3 col-md-3">
+                        <div class="currency__system">
+                            <img src="img/usd.png" alt="eur" class="currency__system-pic">
+                            <img src="img/eur.png" alt="usd" class="currency__system-pic">
+                            <div class="icons">
+                                <a href="#!" class="icon-links">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#!" class="icon-links">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#!" class="icon-links">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <nav class="navigation" id="nav">
+                            <ul class="menu__list d-flex justify-content-between">
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Вклады
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Кредиты
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Карты
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Ипотека
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Страхование
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Инвестиции
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Бизнесс
+                                    </a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="#!">
+                                        Контакты
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="icons-mob">
+                                <a href="#!" class="icon-links">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#!" class="icon-links">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#!" class="icon-links">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </nav>
+                        <button class="nav-toggle" type="button">
+                            <span class="nav-toggle__item">
+                                Menu
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__banner">
+            <img src="img/acc-provocare.png" alt="Accepta Provocarea">
+        </div>
+    </header> <!--header end-->
+    <section class="sorting"> <!--Sorting-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="flex-column navbar navbar-expand-lg sorting-begin">
+                        <h1 class="sorting__title">
+                            Сортировать по:
+                        </h1>
+                        <div class="collapse navbar-collapse" id="navbar-sort">
+                        <ul class="flex-column flex-lg-row  sorting__list d-flex justify-content-between">
+                            <li class="sorting__items active">
+                                <a href="#"> 
+                                    Вклады и инвестиции
+                                </a>
+                            </li>
+                            <li class="sorting__items">
+                                <a href="#">
+                                    Кредиты
+                                </a>
+                            </li>
+                            <li class="sorting__items">
+                                <a href="#">
+                                    Ипотека
+                                </a>
+                            </li>
+                            <li class="sorting__items">
+                                <a href="#">
+                                    Дебетовые карты
+                                </a>
+                            </li>
+                            <li class="sorting__items">
+                                <a href="#">
+                                    Кредитные карты
+                                </a>
+                            </li>
+                            <li class="sorting__items">
+                                <a href="#">
+                                    Микрозаймы
+                                </a>
+                            </li>
+                        </ul>
+                         </div>
+                         <div class="sorting-navbar-button">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-sort" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <i class="fas fa-bars"></i>
+                                </span>
+                            </button>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"id="sidebar-toggle" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </button>
+                        </div> 
+                    </div>
+
+
+                    <div class="sorting__bottom">
+                        <ul class="sorting__bottom-list d-none d-lg-flex">
+                            <li class="sorting__bottom-list-item">
+                                <a href="#!" class="sorting__bottom-list-link sort_amount">
+                                    Сумме
+                                </a>
+                            </li>
+                            <li class="sorting__bottom-list-item">
+                                <a href="#!" class="sorting__bottom-list-link sort_rate">
+                                    Проценту
+                                </a>
+                            </li>
+                            <li class="sorting__bottom-list-item">
+                                <a href="#!" class="sorting__bottom-list-link sort_period_min">
+                                    Сроку
+                                </a>
+                            </li>
+                            <li class="sorting__bottom-list-item">
+                                <a href="#!" class="sorting__bottom-list-link sort_age_min">
+                                    Возрасту Заемщиков
+                                </a>
+                            </li>
+                            <li class="sorting__bottom-list-item">
+                                <a href="#!" class="sorting__bottom-list-link sort_decision">
+                                    Скорости решения
+                                </a>
+                            </li>
+                            <li class="sorting__bottom-list-item">
+                                <a href="#!" class="sorting__bottom-list-link sort_approval">
+                                    По одобрению
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="sorting__bottom-mobile d-lg-none">
+                            <!-- <nav class="navbar-light bg-light">  -->
+                                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+                                  <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           По одобрению
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item sort_decision" href="#">Cкорости решения</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item sort_age" href="#">Возрасту Заемщиков</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item sort_terms" href="#">Сроку</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item sort_rate" href="#">Проценту</a>
+                                          <div class="dropdown-divider"></div>
+                                          <a class="dropdown-item sort_amount" href="#">Сумме</a>
+                                        </div>
+                                    </li>
+                                  </ul>
+                                <!-- </div> -->
+                            <!-- </nav> -->
+                        </div>
+                    </div>
+                    <div class="companies-multiple-content-wrapper">
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/iute-credit-logo.png" alt="Iute Credit">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Iute Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link btn-main">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/sebo-logo.png" alt="Sebo">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Sebo Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link btn-main">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/forza-logo.png" alt="Forza">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Forza Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/iute-credit-logo.png" alt="Iute Credit">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Iute Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/sebo-logo.png" alt="Sebo">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Sebo Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/forza-logo.png" alt="Forza">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Forza Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/iute-credit-logo.png" alt="Iute Credit">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Iute Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                        <div class="companies">
+                            <div class="companies__left-side">
+                                <div class="company-logo">
+                                    <img class="logo-img" src="img/sebo-logo.png" alt="Sebo">
+                                </div>
+                                <div class="company__info">
+                                    <div class="company__info-item">
+                                        <img src="img/tel-icon.png" alt="Telephone">
+                                        <a href="tel:+373 22 801 500" class="company__info-link">
+                                            +373 22 801 500
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/union-icon.png" alt="Mail">
+                                        <a href="#!" class="company__info-link">
+                                            info@iutecredit.md
+                                        </a>
+                                    </div>
+                                    <div class="company__info-item">
+                                        <img src="img/map-icon.png" alt="Map">
+                                        <a href="#!" class="company__info-link">
+                                            Str. Vasile Lupu 21/15
+                                        </a>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="companies__right-side">
+                                <div class="companies__info">
+                                    <div class="sorting__companies-items">
+                                        <p class="sorting__companies-items-text">
+                                            Ставка<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>0%</strong> в день</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Сумма<br>
+                                            <span class="sorting__companies-items-text-bottom"><strong>3000 - 20000</strong> лей</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text mobile">
+                                            Срок<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>7</strong> до <strong>30</strong> дней</span>
+                                        </p>
+                                        <p class="sorting__companies-items-text">
+                                            Возраст<br>
+                                            <span class="sorting__companies-items-text-bottom">от <strong>20</strong> лет</span>
+                                        </p>
+                                    </div>
+                                    <div class="sorting__companies-info-bottom">
+                                        <div>
+                                            <h4 class="sorting__companies-info-bottom-title">
+                                                Sebo Credit
+                                            </h4>
+                                            <p class="sorting__companies-info-bottom-text">
+                                                10 000 lei, cu 0% 1 lună Împrumut în 8 minute!
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <div class="sorting__companies-info-bottom-button">
+                                                <a href="#!" class="button-link">
+                                                    Aplică
+                                                </a>
+                                                <a href="#!" class="button-detail">
+                                                    Detalii
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>  
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-3" id="sidebar-filter">
+                    <div class="credit__amount">
+                        <h3 class="credit__amount-title">
+                            Сумма кредита
+                        </h3>
+                        <div class="myslider-range-price">
+                            <div class="range-text-block">
+                                <p class="range-area-txt"><input class="range-area-input-first" type="text" id="amount">Lei</p>
+                                <p class="range-area-txt"><input class="range-area-input-second" type="text" id="amount-1">Lei</p>
+                            </div>
+                        </div>
+                        <div id="slider-range" class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                        <div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 0%;"></div>
+                        <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span>
+                        <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span>
+                        </div>
+                        <div class="credit__amount-for">
+                            <h3 class="credit__amount-for-title">
+                                Для кого
+                            </h3>
+                            <ul class="credit__amount-for-list">
+                                <li class=" credit__amount-item">
+                                    <a href="#" class="filter_seniors" >Пенсионерам</a>
+                                </li>
+                                <li class="credit__amount-item">
+                                    <a href="#" class="filter_student">Студентам</a>
+                                </li>
+                                <li class="credit__amount-item">
+                                    <a href="#" class="filter_unemployed">Безработным</a>
+                                </li>
+                                <li class="credit__amount-item">
+                                    <a href="#" class="filter_age">21 лет</a>
+                                </li>
+                            </ul>
+                            <h3 class="credit__amount-for-title">
+                                Как получить
+                            </h3>
+                            <ul class="credit__amount-for-list">
+                                <li class="credit__amount-item card-border">
+                                    <a href="#" class="filter_card">На карту</a>
+                                </li>
+                                <li class="credit__amount-item">
+                                    <a href="#" class="filter_cash">Наличными</a>
+                                </li>
+                                <li class="credit__amount-item kiwi-border">
+                                    <a href="#" class="filter_card">На КИВИ без карты</a>
+                                </li>
+                                <li class="credit__amount-item services-border">
+                                    <a href="#" class="filter_service">Через Госуслуги</a>
+                                </li>
+                            </ul>
+                            <h3 class="credit__amount-for-title">
+                                Кредитная история
+                            </h3>
+                            <ul class="credit__amount-for-list">
+                                <li class="credit__amount-item overdue-border">
+                                    <a href="#" class="filter_overdue">С просрочками</a>
+                                </li>
+                                <li class="credit__amount-item no-check-border">
+                                    <a href="#" class="filter_check">Без проверки КИ</a>
+                                </li>
+                            </ul>
+                            <h3 class="credit__amount-for-title">
+                                Перевод денег
+                            </h3>
+                            <ul class="credit__amount-for-list">
+                                <li class="credit__amount-item maestro-border">
+                                    <a href="#" class="filter_card" >На карту Маэстро</a>
+                                </li>
+                                <li class="credit__amount-item">
+                                    <a href="#" class="filter_money">На Вебмани</a>
+                                </li>
+                                <li class="credit__amount-item maestro-border">
+                                    <a href="#" class="filter_card">На карту Маэстро</a>
+                                </li>
+                                <li class="credit__amount-item">
+                                    <a href="#" class="filter_money"> На Вебмани</a>
+                                </li>
+                                <li class="credit__amount-item visa-border">
+                                    <a href="#" class="filter_card">На карту Виса</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="credit__amount-right-pic">
+                        <a href="#"><img class="right-img-second" src="img/free-credit.png" alt="FreeCredit"></a>
+                    </div>
+                    <div class="credit__amount-right-pic-second">
+                        <a href="#"><img class="credit__amount-img" src="img/money-company.png" alt="Money"></a>
+                    </div>
+                    <div class="credit__amount-right-pic-third">
+                        <a href="#"><img class="credit__visa-img" src="img/visa-company.png" alt="Visa"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--Sorting end-->
+    <div class="pagination__block">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <div class="pagination col-md-6">
+                        <div class="back">
+                           <a href="#!"> Înapoi</a> 
+                        </div>
+                        <ul class="pagination__number">
+                            <li class="pagination__item">
+                                <a href="#">
+                                    1
+                                </a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#">
+                                    2
+                                </a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#">
+                                    3
+                                </a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#">
+                                    4
+                                </a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#">
+                                    5
+                                </a>
+                            </li>
+                            <li class="pagination__item">
+                                <a href="#">
+                                    6
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="forward">
+                           <a href="#!">Înainte</a> 
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <footer class="footer"> <!--footer start-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="footer__header">
+                        <div class="footer__logo">
+                            <a href="#!">
+                                <img src="img/all-credit-footer.png" alt="AllCredit">
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="footer__nav">
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <h4 class="footer__title">
+                                    Alege credit
+                                </h4>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Calculator<br> credit
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <h4 class="footer__title">
+                                    Despre noi
+                                </h4>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Cine suntem
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Avantajele
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Servicii
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <h4 class="footer__title">
+                                    Companii
+                                </h4>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Companii
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Companii
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <h4 class="footer__title">
+                                    Media - kit
+                                </h4>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Price - List
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Condiții și<br> termeni
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Oferte
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <h4 class="footer__title">
+                                    Blog
+                                </h4>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    Articole
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu">
+                            <li class="footer__menu-item">
+                                <h4 class="footer__title">
+                                    Contacte
+                                </h4>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="tel:+373 68 181 656" class="footer__menu-link">
+                                    +373 68 181 656
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    allcredit@mail.ru
+                                </a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#!" class="footer__menu-link">
+                                    str. Banulescu<br>
+                                    Bodoni 16<br>
+                                    etaj 4 of. 228
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__copyright">
+                        <p class="footer__copyright-text">
+                            AllCredit © 2019 Все права защищены
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> <!--footer end-->
+
+
+     <!-- Underscore cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.10.2/underscore-min.js"></script>
+
+     <!-- BOOTSTRAP CDN -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
+
+    <!-- JQUERY TABS CONNECT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- JQUERY RANGE(polzunok) SLIDER  -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+
+    
+</body>
+</html>
